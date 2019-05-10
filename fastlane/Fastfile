@@ -20,7 +20,11 @@ platform :mac do
   lane :build do
     gym(
       clean: true,
+      output_directory: "output",
       export_method: "ad-hoc"
+    )
+    zip(
+      path: "output/Earl Grey.app"
     )
   end
 end
