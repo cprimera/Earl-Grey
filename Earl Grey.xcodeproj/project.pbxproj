@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F1D59FE2284FD5B005C6DEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D59FD2284FD5B005C6DEE /* AppDelegate.swift */; };
+		2F1D5A022284FD5D005C6DEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D5A012284FD5D005C6DEE /* Assets.xcassets */; };
+		2F1D5A052284FD5D005C6DEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D5A032284FD5D005C6DEE /* Main.storyboard */; };
+		2F1D5A112284FD5D005C6DEE /* Earl_GreyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D5A102284FD5D005C6DEE /* Earl_GreyTests.swift */; };
+		2F1D5A1C2284FD5D005C6DEE /* Earl_GreyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D5A1B2284FD5D005C6DEE /* Earl_GreyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F1D5A0D2284FD5D005C6DEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F1D59F22284FD5B005C6DEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F1D59F92284FD5B005C6DEE;
+			remoteInfo = "Earl Grey";
+		};
+		2F1D5A182284FD5D005C6DEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F1D59F22284FD5B005C6DEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F1D59F92284FD5B005C6DEE;
+			remoteInfo = "Earl Grey";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F1D59FA2284FD5B005C6DEE /* Earl Grey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Earl Grey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1D59FD2284FD5B005C6DEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F1D5A012284FD5D005C6DEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F1D5A042284FD5D005C6DEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F1D5A062284FD5D005C6DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F1D5A072284FD5D005C6DEE /* Earl_Grey.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Earl_Grey.entitlements; sourceTree = "<group>"; };
+		2F1D5A0C2284FD5D005C6DEE /* Earl GreyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Earl GreyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1D5A102284FD5D005C6DEE /* Earl_GreyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Earl_GreyTests.swift; sourceTree = "<group>"; };
+		2F1D5A122284FD5D005C6DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F1D5A172284FD5D005C6DEE /* Earl GreyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Earl GreyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1D5A1B2284FD5D005C6DEE /* Earl_GreyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Earl_GreyUITests.swift; sourceTree = "<group>"; };
+		2F1D5A1D2284FD5D005C6DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F1D59F72284FD5B005C6DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1D5A092284FD5D005C6DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1D5A142284FD5D005C6DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F1D59F12284FD5B005C6DEE = {
+			isa = PBXGroup;
+			children = (
+				2F1D59FC2284FD5B005C6DEE /* Earl Grey */,
+				2F1D5A0F2284FD5D005C6DEE /* Earl GreyTests */,
+				2F1D5A1A2284FD5D005C6DEE /* Earl GreyUITests */,
+				2F1D59FB2284FD5B005C6DEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F1D59FB2284FD5B005C6DEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F1D59FA2284FD5B005C6DEE /* Earl Grey.app */,
+				2F1D5A0C2284FD5D005C6DEE /* Earl GreyTests.xctest */,
+				2F1D5A172284FD5D005C6DEE /* Earl GreyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F1D59FC2284FD5B005C6DEE /* Earl Grey */ = {
+			isa = PBXGroup;
+			children = (
+				2F1D59FD2284FD5B005C6DEE /* AppDelegate.swift */,
+				2F1D5A012284FD5D005C6DEE /* Assets.xcassets */,
+				2F1D5A032284FD5D005C6DEE /* Main.storyboard */,
+				2F1D5A062284FD5D005C6DEE /* Info.plist */,
+				2F1D5A072284FD5D005C6DEE /* Earl_Grey.entitlements */,
+			);
+			path = "Earl Grey";
+			sourceTree = "<group>";
+		};
+		2F1D5A0F2284FD5D005C6DEE /* Earl GreyTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F1D5A102284FD5D005C6DEE /* Earl_GreyTests.swift */,
+				2F1D5A122284FD5D005C6DEE /* Info.plist */,
+			);
+			path = "Earl GreyTests";
+			sourceTree = "<group>";
+		};
+		2F1D5A1A2284FD5D005C6DEE /* Earl GreyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F1D5A1B2284FD5D005C6DEE /* Earl_GreyUITests.swift */,
+				2F1D5A1D2284FD5D005C6DEE /* Info.plist */,
+			);
+			path = "Earl GreyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F1D59F92284FD5B005C6DEE /* Earl Grey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F1D5A202284FD5D005C6DEE /* Build configuration list for PBXNativeTarget "Earl Grey" */;
+			buildPhases = (
+				2F1D59F62284FD5B005C6DEE /* Sources */,
+				2F1D59F72284FD5B005C6DEE /* Frameworks */,
+				2F1D59F82284FD5B005C6DEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Earl Grey";
+			productName = "Earl Grey";
+			productReference = 2F1D59FA2284FD5B005C6DEE /* Earl Grey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F1D5A0B2284FD5D005C6DEE /* Earl GreyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F1D5A232284FD5D005C6DEE /* Build configuration list for PBXNativeTarget "Earl GreyTests" */;
+			buildPhases = (
+				2F1D5A082284FD5D005C6DEE /* Sources */,
+				2F1D5A092284FD5D005C6DEE /* Frameworks */,
+				2F1D5A0A2284FD5D005C6DEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F1D5A0E2284FD5D005C6DEE /* PBXTargetDependency */,
+			);
+			name = "Earl GreyTests";
+			productName = "Earl GreyTests";
+			productReference = 2F1D5A0C2284FD5D005C6DEE /* Earl GreyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F1D5A162284FD5D005C6DEE /* Earl GreyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F1D5A262284FD5D005C6DEE /* Build configuration list for PBXNativeTarget "Earl GreyUITests" */;
+			buildPhases = (
+				2F1D5A132284FD5D005C6DEE /* Sources */,
+				2F1D5A142284FD5D005C6DEE /* Frameworks */,
+				2F1D5A152284FD5D005C6DEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F1D5A192284FD5D005C6DEE /* PBXTargetDependency */,
+			);
+			name = "Earl GreyUITests";
+			productName = "Earl GreyUITests";
+			productReference = 2F1D5A172284FD5D005C6DEE /* Earl GreyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F1D59F22284FD5B005C6DEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Christopher Primerano";
+				TargetAttributes = {
+					2F1D59F92284FD5B005C6DEE = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					2F1D5A0B2284FD5D005C6DEE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2F1D59F92284FD5B005C6DEE;
+					};
+					2F1D5A162284FD5D005C6DEE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2F1D59F92284FD5B005C6DEE;
+					};
+				};
+			};
+			buildConfigurationList = 2F1D59F52284FD5B005C6DEE /* Build configuration list for PBXProject "Earl Grey" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F1D59F12284FD5B005C6DEE;
+			productRefGroup = 2F1D59FB2284FD5B005C6DEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F1D59F92284FD5B005C6DEE /* Earl Grey */,
+				2F1D5A0B2284FD5D005C6DEE /* Earl GreyTests */,
+				2F1D5A162284FD5D005C6DEE /* Earl GreyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F1D59F82284FD5B005C6DEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1D5A022284FD5D005C6DEE /* Assets.xcassets in Resources */,
+				2F1D5A052284FD5D005C6DEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1D5A0A2284FD5D005C6DEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1D5A152284FD5D005C6DEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F1D59F62284FD5B005C6DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1D59FE2284FD5B005C6DEE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1D5A082284FD5D005C6DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1D5A112284FD5D005C6DEE /* Earl_GreyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1D5A132284FD5D005C6DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1D5A1C2284FD5D005C6DEE /* Earl_GreyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F1D5A0E2284FD5D005C6DEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F1D59F92284FD5B005C6DEE /* Earl Grey */;
+			targetProxy = 2F1D5A0D2284FD5D005C6DEE /* PBXContainerItemProxy */;
+		};
+		2F1D5A192284FD5D005C6DEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F1D59F92284FD5B005C6DEE /* Earl Grey */;
+			targetProxy = 2F1D5A182284FD5D005C6DEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F1D5A032284FD5D005C6DEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F1D5A042284FD5D005C6DEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F1D5A1E2284FD5D005C6DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F1D5A1F2284FD5D005C6DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2F1D5A212284FD5D005C6DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Earl Grey/Earl_Grey.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ED7E783FS3;
+				INFOPLIST_FILE = "Earl Grey/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.cprimera.Earl-Grey";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2F1D5A222284FD5D005C6DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Earl Grey/Earl_Grey.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ED7E783FS3;
+				INFOPLIST_FILE = "Earl Grey/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.cprimera.Earl-Grey";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2F1D5A242284FD5D005C6DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ED7E783FS3;
+				INFOPLIST_FILE = "Earl GreyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.cprimera.Earl-GreyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Earl Grey.app/Contents/MacOS/Earl Grey";
+			};
+			name = Debug;
+		};
+		2F1D5A252284FD5D005C6DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ED7E783FS3;
+				INFOPLIST_FILE = "Earl GreyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.cprimera.Earl-GreyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Earl Grey.app/Contents/MacOS/Earl Grey";
+			};
+			name = Release;
+		};
+		2F1D5A272284FD5D005C6DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ED7E783FS3;
+				INFOPLIST_FILE = "Earl GreyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.cprimera.Earl-GreyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Earl Grey";
+			};
+			name = Debug;
+		};
+		2F1D5A282284FD5D005C6DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ED7E783FS3;
+				INFOPLIST_FILE = "Earl GreyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.cprimera.Earl-GreyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Earl Grey";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F1D59F52284FD5B005C6DEE /* Build configuration list for PBXProject "Earl Grey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1D5A1E2284FD5D005C6DEE /* Debug */,
+				2F1D5A1F2284FD5D005C6DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F1D5A202284FD5D005C6DEE /* Build configuration list for PBXNativeTarget "Earl Grey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1D5A212284FD5D005C6DEE /* Debug */,
+				2F1D5A222284FD5D005C6DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F1D5A232284FD5D005C6DEE /* Build configuration list for PBXNativeTarget "Earl GreyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1D5A242284FD5D005C6DEE /* Debug */,
+				2F1D5A252284FD5D005C6DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F1D5A262284FD5D005C6DEE /* Build configuration list for PBXNativeTarget "Earl GreyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1D5A272284FD5D005C6DEE /* Debug */,
+				2F1D5A282284FD5D005C6DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F1D59F22284FD5B005C6DEE /* Project object */;
+}
