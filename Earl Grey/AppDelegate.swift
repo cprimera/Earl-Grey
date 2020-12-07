@@ -24,7 +24,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 		// Insert code here to initialize your application
 		self.buttonEnabled = false
 		statusItem.button?.imageScaling = .scaleProportionallyUpOrDown
-		statusItem.button?.contentTintColor = NSColor.labelColor
 		statusItem.button?.target = self
 		statusItem.button?.action = #selector(AppDelegate.handleButton(sender:))
 	}
