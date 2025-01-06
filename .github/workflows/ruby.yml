@@ -22,7 +22,7 @@ jobs:
     runs-on: macos-latest
     strategy:
       matrix:
-        ruby-version: ['2.7']
+        ruby-version: ['3.3']
     environment: Production
 
     steps:
